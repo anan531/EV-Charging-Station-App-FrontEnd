@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 const ViewVeh = () => {
 
@@ -32,10 +33,10 @@ const ViewVeh = () => {
     return (
         <div>
 
-
+<Navigation/>
             <div className="container-fluid px-2 mt-4">
 
-                <h1 className="text-center mb-4">EV Charging Bookings</h1>
+                <h1 className="text-center mb-4">EV Vehicle Bookings</h1>
 
                 <div className="row">
 
