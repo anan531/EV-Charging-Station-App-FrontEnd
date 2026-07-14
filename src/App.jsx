@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddVeh from './components/AddVeh'
+import ViewVeh from './components/ViewVeh'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <AddVeh/>
+      <ViewVeh/>
     </>
   )
 }
