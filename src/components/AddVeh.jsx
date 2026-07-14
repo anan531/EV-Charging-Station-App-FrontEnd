@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navigation from './Navigation'
 
 const AddVeh = () => {
 
@@ -58,8 +59,8 @@ const AddVeh = () => {
     return (
         <div>
 
-
-            <h1 align="center">EV Charging Booking APP</h1>
+<Navigation/>
+            <h1 align="center">Add Vehicle</h1>
 
             <div className="container">
                 <div className="row g-3">
